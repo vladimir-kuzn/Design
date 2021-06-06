@@ -607,10 +607,10 @@ main hr {
 
 .content_block_cover {
     display: inline-block;
-    max-width: 275px;
-    max-height: 275px;
-    width: 275px;
-    height: 275px;
+    max-width: 270px;
+    max-height: 270px;
+    width: 270px;
+    height: 270px;
     background-color: #17181d;
     margin: 19px;
     border-radius: 20px 10px;

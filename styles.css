@@ -1,4 +1,4 @@
-﻿h1,
+h1,
 h2,
 h3,
 html,
@@ -225,18 +225,23 @@ nav {
 .navigation li a {
     color: #ffffff;
     display: block;
-    padding: 7px 17px;
+    padding: 6px 15px;
     text-decoration: none;
     position: relative;
     margin: auto;
     font-size: 20px;
     max-height: 50px;
-    max-width: 100px;
-    max-width: 100px;
+    max-width: 135px;
     font-weight: 600;
     border-radius: 20px 10px;
     font-size: 16px;
     background-color: #7a35e7;
+}
+
+.navigation li a img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
 }
 
 .navigation li a:hover {
@@ -360,12 +365,19 @@ nav {
     height: 65px;
     margin-right: auto;
     margin-left: 0px;
-    padding: 0 30px;
+    padding: 0 15px;
     display: flex;
     background-color: #202028;
     border: 0px solid;
     border-radius: 20px;
     margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo_website a img {
+    height: 60px;
+    width: 60px;
+    margin-top: 3px;
     margin-bottom: auto;
 }
 
@@ -609,8 +621,8 @@ main hr {
     display: inline-block;
     max-width: 270px;
     max-height: 270px;
-    width: 270px;
-    height: 270px;
+    min-height: 135px;
+    min-width: 135px;
     background-color: #17181d;
     margin: 19px;
     border-radius: 20px 10px;
@@ -627,9 +639,11 @@ main hr {
     justify-content: center;
     align-items: center;
     border-radius: 20px 10px 20px 10px;
-    z-index: 101;
-    position: relative;
     line-height: 0;
+
+    max-width: 270px;
+    min-width: 135px;
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
